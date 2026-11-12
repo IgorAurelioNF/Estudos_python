@@ -1,0 +1,11 @@
+Responda sem pesquisar: o que é uma variável? Qual a diferença entre int e float? O que faz input()? Para que serve type()?
+O que é uma expressão booleana? Qual a diferença entre and, or e not? Dê um exemplo próprio de pelo menos três desses conceitos.
+
+RESPOSTA: 
+
+Variável é um valor armazenado de forma temporária no computador, que faz ou armazena alguma informação.
+A diferença entr Int e Float é, int utiliza de números inteiros, sem ponto flutuante. O float já utiliza de ponto flutuante.
+O input pede ao usuário alguma informação e armazena em sua variável.
+o type() serve para identificar qual o valor/tipo apresenta em uma função.
+A expressão booleana serve para saber se é verdadeira ou falsa uma condição, apresenta apenas dois valores, True ou False.
+O 'and' só vai ser verdadeira se todas as condições forem verdadeiras. O 'or' vai ser verdadeira se pelo menos uma for verdadeira. O 'not' inverte o valor da condição.

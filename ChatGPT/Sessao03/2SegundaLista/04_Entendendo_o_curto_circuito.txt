@@ -1,0 +1,17 @@
+Analise cada linha independentemente:
+
+print(True or int('abc'))
+print(False and int('abc'))
+print(False or int('abc'))
+print(10 and 20)
+print(0 and 20)
+
+Quais linhas conseguem apresentar um resultado? Alguma provoca erro? Explique quais expressões deixam de ser avaliadas e por quê.
+
+RESPOSTA:
+
+print(True or int('abc')) -> True. Pois como o True vem a esquerda do or ele vai ser impresso.
+print(False and int('abc')) -> False. Pois ele vem a esquerda e tá em uma condição com and, resultando em False
+print(False or int('abc')) -> Erro. Pois não tem como fazer a conversão de 'abc' para int.
+print(10 and 20) -> 20. Pois 20 é maior e representa valor positivo
+print(0 and 20) -> 0. Pois é um valor falsy

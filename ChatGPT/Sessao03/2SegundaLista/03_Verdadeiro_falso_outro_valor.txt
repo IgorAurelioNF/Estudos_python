@@ -1,0 +1,25 @@
+Informe a saída e o tipo de cada resultado:
+
+print(0 or 'Python')
+print('Estudo' and 50)
+print('' or False or 100)
+print(25 and 0 and 'Olá')
+print(not 'False')
+print(bool('False'))
+print(bool('0'))
+print(bool(0))
+    
+Explique por que and e or podem retornar valores que não são booleanos.
+
+RESPOSTA:
+
+print(0 or 'Python') -> Python. Pois o '0' é um valor falsy.
+print('Estudo' and 50) -> True. Pois os dois tem valor
+print('' or False or 100) -> 100. Pois 100 tem valor True
+print(25 and 0 and 'Olá') -> 0. Por ser um valor falsy
+print(not 'False') -> False. Pois o 'False' é uma str True, e o 'not' inverteu o valor
+print(bool('False')) -> True. Pois o 'False' é apenas uma str cheia
+print(bool('0')) -> True.
+print(bool(0)) -> 0. Pois 0 é um False.
+
+Explicacao: Porque tá pedindo pra ser impresso, ai vem a lógica de não retornar o valor True ou False as vezes

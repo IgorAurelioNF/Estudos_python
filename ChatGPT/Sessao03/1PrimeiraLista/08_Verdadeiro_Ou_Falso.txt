@@ -1,0 +1,21 @@
+Determine o resultado de cada expressão:
+
+print(10 > 5 and 3 < 1)
+print(10 > 5 or 3 < 1)
+print(not 10 == 10)
+print(bool('False'))
+print(bool(''))
+print(bool(0))
+    
+Explique especialmente o resultado de bool('False').
+
+RESPOSTA: 
+
+print(10 > 5 and 3 < 1): Resultado: False, pois os dois precisam ser "True", como um era "False" e outro "True", o resultado foi "False"
+print(10 > 5 or 3 < 1): Resultado: True.
+print( not 10 == 10): Resultado: False, pois o "not" inverte o valor, como 10 == 10 é "True", o resultado vai sair "False"
+print(bool('False')): Resultado: False, pois foi escrito corretamente a conversão.
+CORETO: True
+
+print(bool('')): Resultado: False, pois não existe valor na string, tendo o valor "False"
+print(bool(0)): Resultado: False, pois 0 é um valor "False" do booleano, logo tem o valor "False" 

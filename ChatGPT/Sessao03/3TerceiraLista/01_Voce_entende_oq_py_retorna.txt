@@ -1,0 +1,27 @@
+Sem executar, diga exatamente o que cada print() exibirá.
+
+usuario = 'admin'
+senha = 'python123'
+verificacao = None
+
+print('ad' in usuario)
+print('ad' == usuario)
+print('' in senha)
+print(0 or 'Python')
+print('Estudo' and 25)
+print(bool('False'))
+print(verificacao is None)
+  
+Depois, explique com suas palavras por que o quarto e o quinto print() não precisam retornar True ou False.
+
+RESPOSTA:
+
+print('ad' in usuario) ---- True. Pois 'ad' tá incluso em usuario, apresenta 'ad' na variavel usuario
+print('ad' == usuario) ---- False. Pois 'ad' não é igual a usuario
+print('' in senha) -------- False. Pois senha é uma variavel que não está vazia
+print(0 or 'Python') ------ Python. Pois é um valor "True", em comparação ao 0 que é um Falsy
+print('Estudo' and 25) ---- 25. Os dois valores são True, mas como o 25 foi comparado por último, ele foi imprimido
+print(bool('False')) ------ True. Pois o 'False' é uma string não vazia, recebendo um valor True.
+print(verificacao is None)- True. Pois o verificacao continua sendo None.
+
+EXPLICAÇÃO: Porque é uma condição com valor verdadeiro e false, pois esta dentro de um print que um dos dois vai ser imprimido.

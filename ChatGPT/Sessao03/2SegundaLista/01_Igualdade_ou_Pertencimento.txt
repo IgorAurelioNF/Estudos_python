@@ -1,0 +1,25 @@
+Analise o código e escreva exatamente o que será exibido:
+
+usuario = 'administrador'
+senha = 'python123'
+
+print('admin' in usuario)
+print('admin' == usuario)
+print('python' in senha)
+print('python' == senha)
+print('' in usuario)
+print('' == usuario)
+
+Explique a diferença entre in e == e diga qual deles deve ser utilizado para verificar um login completo.
+
+RESPOSTA:
+
+print('admin' in usuario) -> True. Porque admin tá incluso em usuario
+print('admin' == usuario) -> False. Porque admin não é igual a usuario
+print('python' in senha) -> True. Porque tá incluso na senha os caracteres
+print('python' == senha) -> False. Porque não tá indêntico.
+print('' in usuario) -> False. Pois não é vazia a variável usuario.
+print('' == usuario) -> False. Porque não é igual a variável usuario
+
+Explicação: in - questiona se o valor está incluso em outro, se tiver recebe o valor True, mas precisa de atenção, pois não serve para login. Se o usuario digitar só usuario 'a' e senha '2', vai permitir o acesso.
+== - esse sim é ideal para saber se o login corresponde ao que o usuario digitou, pois precisa ser identico para ser True.

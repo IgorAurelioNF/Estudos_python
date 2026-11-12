@@ -1,0 +1,34 @@
+Um programador escreveu o seguinte código:
+
+contador = 0
+
+while contador < 5:
+    if contador == 2:
+        continue
+
+    print(f'Número: {contador}')
+    contador += 1
+
+print('Finalizado!')
+  
+Responda e depois corrija o programa:
+1. O programa termina normalmente?
+2. Qual é o motivo do problema?
+3. Como corrigir o código mantendo o continue?
+4. Faça o programa exibir 0, 1, 3 e 4 e depois finalizar.
+
+1. Não, pois quando o contador tiver o valor 2, ele vai fazer o while ficar em loop infinito por conta daquele if.
+2. Quando o contador tiver o valor 2, vai ficar em um loop infinito
+3. colocar um contador += 1 dentro do if, antes do continue. Se o intuito não for imprimir o 2.
+4. 
+contador = 0
+
+while contador < 5:
+    if contador == 2:
+        contador += 1
+        continue
+
+    print(f'Número: {contador}')
+    contador += 1
+
+print('Finalizado!')

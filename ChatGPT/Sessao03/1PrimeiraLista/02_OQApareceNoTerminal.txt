@@ -1,0 +1,17 @@
+Sem executar, escreva a saída de cada print():
+
+a = '10'
+b = 5
+
+print(a * 2)
+print(int(a) + b)
+print(str(b) + a)
+print(type(a))
+print(10 / 2)
+
+RESPOSTAS: 
+print(a * 2) ------> 1010
+print(int(a) + b) ------> 15
+print(str(b) + a) ------> '510'
+print(type(a)) ------> class= 'str'
+print(10 / 2) ------> 5

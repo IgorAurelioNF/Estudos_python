@@ -1,0 +1,15 @@
+O programa pretende calcular o dobro de um número, mas não funciona como esperado:
+
+numero = input('Digite um número: ')
+dobro = numero * 2
+print(f'O dobro é {dobro}')
+    
+Explique o problema e reescreva o programa corretamente.
+
+RESPOSTA:
+
+O código apresenta uma falha, que é não fazer a conversão do 'input' em int ou float. O correto é:
+
+numero = int(input('Digite um número: '))
+dobro = numero * 2
+print(f'O dobro é {dobro}')

@@ -1,0 +1,14 @@
+Analise os comandos sem executar:
+
+print(True or int('abc')) True
+print(False and int('abc')) False
+print(0 or '' or 50) 50
+print('Python' and '' and 100) vazia
+    
+Alguma dessas linhas provoca erro? Explique como o curto-circuito influencia a avaliação de cada expressão.
+
+RESPOSTA: 
+
+Nenhum vai dá erro. O curto-circuito funciona como uma confirmação de falha, a primeira por ser 'True' e utilizar o 'or', já sai que o valor é 'True'
+precisando apenas de uma confirmação verdadeira para ser válida, e porque o comando é lido da esquerda para direita.
+Mesma coisa acontece no segundo print. 

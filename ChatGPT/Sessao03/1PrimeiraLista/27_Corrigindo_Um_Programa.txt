@@ -1,0 +1,28 @@
+Este programa deveria aplicar um desconto de 10% para compras acima de R$ 100,00, mas apresenta problemas:
+
+preco = input('Preço: ')
+
+if preco > 100:
+    desconto = preco * 0.10
+else:
+    desconto = 0
+
+total = preco - desconto
+print(f'Total: R$ {total:.2f}')
+    
+Identifique o problema principal, explique o motivo do erro e apresente o código corrigido. 
+Considere que o usuário digitará um número válido.
+
+RESPOSTA:
+
+A variável 'preco' é uma str, vai apresentar erro.
+
+preco = float(input('Preço: '))
+
+if preco > 100:
+    desconto = preco * 0.10
+else:
+    desconto = 0
+
+total = preco - desconto
+print(f'Total: R$ {total:.2f}')

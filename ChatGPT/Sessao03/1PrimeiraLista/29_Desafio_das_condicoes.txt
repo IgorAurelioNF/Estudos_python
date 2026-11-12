@@ -1,0 +1,26 @@
+Examine o código:
+
+idade = 19
+tem_carteira = True
+esta_acompanhado = False
+
+if idade >= 18 and tem_carteira:
+    print('A')
+elif idade >= 16 or esta_acompanhado:
+    print('B')
+elif not tem_carteira:
+    print('C')
+else:
+    print('D')
+
+print('Finalizado')
+    
+Responda: quais letras aparecem na saída? 
+Por que nem todas as condições são executadas?
+O que mudaria se idade = 15 e tem_carteira = False?
+E se todos os elif fossem substituídos por if independentes, mantendo o else associado ao último if?
+
+RESPOSTAS: 
+
+Vai sair a letra 'A'. Vai ser executada a primeira válida, se não tiver vai ser o else, se tiver. Ia sair 'C', porque houve a inversão do valor, que é um erro. Só ia executar o que seria 
+verdadeiro, no caso ia imprimir 'A', 'B' e 'D'

@@ -1,0 +1,30 @@
+nome = 'Python'
+numero = 17
+
+print(nome[0])
+print(nome[-2])
+print('th' in nome)
+print(numero % 5)
+print(numero // 5)
+print(f'{numero:05d}')
+print(f'{nome:-^12}')
+    
+Escreva a saída exata de cada linha e explique como funcionam :05d e :-^12.
+
+RESPOSTA: 
+
+print(nome[0]) = Será impresso 'P'
+
+print(nome[-2]) = Será impresso 'o'
+
+print('th' in nome) = Será impresso 'True'
+
+print(numero % 5) = será impresso '2', resto da divisão 17 /5
+
+print(numero // 5) = Será impresso '3'
+
+print(f'{numero:05d}') = será impresso '00017'
+
+print(f'{nome:-^12}') = Será impresso '---Python---'
+
+O ':05d' é o valor em inteiro, como o valor já é inteiro se coloca só 0 a esquerda com 5 casas. O ':-^12' vai ser usado 12 espaços com '-' e a variavel nome/'Python' centralizada.

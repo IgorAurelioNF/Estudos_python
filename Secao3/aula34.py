@@ -1,0 +1,17 @@
+"""
+Repetições
+while (enquanto)
+Executa uma ação enquanto uma condição for verdadeira
+"""
+condicao = True
+
+while condicao:
+    nome = input('Digite seu nome: ')
+    print(f'Seu nome é {nome}')
+
+    desejo = input('\nDigite [sair] para finalizar o loop: ')
+
+    if desejo == 'sair':
+        break
+
+print('Acabou')

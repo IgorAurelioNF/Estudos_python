@@ -1,0 +1,17 @@
+Sem executar, escreva a saída exata dos dois trechos:
+
+for numero in range(2, 10, 3):
+    print(numero)
+
+for letra in 'Lua':
+    print(f'<{letra}>')
+  
+Depois, explique por que o for funciona nos dois exemplos, mesmo recebendo objetos diferentes.
+Dica: o primeiro percorre uma sequência numérica; o segundo percorre caracteres.
+
+RESPOSTA:
+
+FOR1: 3 6 9
+FOR2: <l><u><a>
+
+Funciona porque os dois tem seu interável sendo o 'range' e a str 'lua', para percorrer. Utilizando do interator 'numero' e 'letra' para percorrer cada casa deles.

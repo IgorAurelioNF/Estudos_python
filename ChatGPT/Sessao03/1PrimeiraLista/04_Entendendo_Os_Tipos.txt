@@ -1,0 +1,23 @@
+Identifique o tipo de cada valor e explique por quê:
+
+a = 10
+b = '10'
+c = 10.0
+d = 10 == 10
+e = False
+f = 5 / 2
+g = 5 // 2
+    
+Explique também a diferença entre = e ==.
+
+RESPOSTAS:
+
+a = 10 -----> O 'a' é um inteiro (int), pois como não foi integrado nenhum ponto após o número '10', o python interpreta como int, pois é uma linguagem dinâmica e forte.
+b = '10' -----> o 'b' é uma str, pois o número 10 se encontra entre duas aspas('').
+c = 10.0 -----> o 'c' é um float, pois ele tem um ponto e um 0 após o 10. Se caracterizando como float.
+d = 10 == 10 -----> o 'd' é um booleano de valor 'True', pois tem uma condição de comparação, com um valor True.
+e = False -----> O 'e' é um booleano de valor 'False", pois está implicito que é 'False'.
+f = 5 / 2 -----> o 'f' é um float, mesmo os números serem inteiros está ocorrendo uma divisão entre eles, entregando o valor 2.5, como apresenta '.' é de naturaza float
+g = 5 // 2 -----> o 'g' é um int, pois o resultado da divisão inteira é '2', sendo assim, não apresenta ponto, por fazer uma divisão inteira.
+
+O '=' informa que uma variável recebe um valor, faz uma atribuição. Já o '==' é uma comparação, para indenteficar se duas coisas são iguais.

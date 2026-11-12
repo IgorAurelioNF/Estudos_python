@@ -1,0 +1,24 @@
+Analise:
+
+nome = 'python'
+copia = nome
+
+nome = f'P{nome[1:]}'
+
+print(nome)
+print(copia)
+print(nome == copia)
+print(nome is copia)
+  
+Explique o resultado dos quatro print() e responda: a variável copia foi modificada quando nome recebeu um 
+novo valor? Por quê?
+No final, explique a diferença entre igualdade (==) e identidade (is).
+
+RESPOSTA: 
+print(nome) -------- Python. Tirou o o 'p' minúsculo e adicionou um 'P' maiúsculo.
+print(copia) ------- python. Ele vai ser indêntico a variável nome da linha 1.
+print(nome == copia) False. Pois o print vem depois de já ter modificado a variável nome
+print(nome is copia) False. Pois é a mesma coisa de usar '==' que tá tentando saber se são indênticos, que no caso não são
+
+E não, a variável copia não foi modificada
+== e is não tem diferença, fazem a mesma coisa, tem a mesma função.

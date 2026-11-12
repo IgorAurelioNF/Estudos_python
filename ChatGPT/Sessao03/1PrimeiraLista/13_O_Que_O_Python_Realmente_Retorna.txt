@@ -1,0 +1,29 @@
+Analise:
+
+a = 0 or 'Python'
+b = 'Estudo' and 25
+c = '' or False or 150
+d = not 'Olá'
+
+print(a)
+print(b)
+print(c)
+print(d)
+    
+Informe o resultado e o tipo de cada variável. Por que and e or nem sempre retornam True ou False?
+
+RESPOSTA:
+
+a = True, pois 'Python' tem um valor True, por não ser uma str vazia e o 'or' vai sempre retornar True, se somente uma condição for verdadeira
+CORRETA: a = 'Python'
+
+b = True, pois 'Estudo' é uma str cheia com valor True e 25 é um int com valor true, logo por conta do and, o valor é true. Porque só é verdadeiro se todos forem True
+CORRETA: b = 25
+
+c = '', porque a str vazia vem primeiro, mostrando esse resultado 'Falsy'
+CORRETA: c = 150
+
+d = False, pois o 'not' tá fazendo o sentido inverso da str 'Olá', que é True.
+
+Valores Falsy, tem prioridade em condições, podendo alterar o valor da condição, manipular.
+

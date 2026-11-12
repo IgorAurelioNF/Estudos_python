@@ -1,0 +1,15 @@
+Este programa deveria imprimir todas as letras de uma frase, ignorando os espaços:
+
+texto = 'Eu amo Python'
+i = 0
+
+while i < len(texto):
+    if texto[i] == ' ':
+        continue
+
+    print(texto[i])
+    i += 1
+  
+Explique por que ele pode entrar em um laço infinito. Depois, apresente uma versão corrigida usando while e outra usando for.
+
+RESPOSTA: Quando tiver um espaço ele vai entrar no if, e como não tem um contador pra ir para a próxima letra, ele vai ficar em um loop infinito.
