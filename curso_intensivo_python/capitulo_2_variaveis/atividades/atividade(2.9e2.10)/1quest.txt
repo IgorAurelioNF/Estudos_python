@@ -1,0 +1,9 @@
+2.9 Número Oito
+    Escreva operações de adição, subtração, multiplicação e divi-são que resultem cada uma no número 8. 
+    Não se esqueça de incluir suas opera-ções em um print() para conferir os resultados. 
+    Você deve criar quatro linhas mais ou menos assim: print(5+3)
+    Sua saída deve ter quatro linhas, com o número 8 aparecendo uma vez em cada linha.
+
+2.10 Número Favorito
+    Use uma variável para representar seu número favorito. Em seguida, usando essa variável, 
+    crie uma mensagem que revele seu número favorito. Printe essa mensagem
