@@ -10,7 +10,7 @@ digite_senha = input(' SENHA: ')
 # ERRO!!! if digite_usuario in usuario and digite_senha in senha:
 if digite_usuario == usuario and digite_senha == senha:
     print(f'ENTRADA permitida!')
-elif digite_usuario in usuario and digite_senha not in senha:
+elif digite_usuario == usuario and digite_senha not in senha:
     print(f'USUÁRIO CORRETO. SENHA INVÁLIDA.')
 else: 
     print(f'USUÁRIO não encontrado.')
