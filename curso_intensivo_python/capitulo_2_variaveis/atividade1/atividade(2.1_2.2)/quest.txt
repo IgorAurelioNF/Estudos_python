@@ -1,0 +1,5 @@
+2.1 Simple Message: Atribua uma messagem a uma variável e exiba essa mensagem.
+
+2.2 Simple Messages: Atribua uma messagem a uma variável e exiba essa messagem.
+Em seguida, mude o valor da variável para uma nova messagem e mostre
+a nova mesassagem.
